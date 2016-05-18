@@ -1,0 +1,14 @@
+﻿@model IEnumerable<string>
+
+@Html.ActionLink("Home", "Index", "Album")
+
+@foreach (var item in Model)
+{
+    @Html.RouteLink(item, new
+{
+    controller = "Album",
+    action = "Index",
+    genre = item,
+    page = 1
+})
+}

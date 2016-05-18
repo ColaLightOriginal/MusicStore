@@ -1,0 +1,53 @@
+﻿@model Model.Entities.Album
+
+
+@{
+    ViewBag.Title = "AlbumSummary";
+}
+
+<table class="table-hover">
+    <tr>
+        <th>
+            AlbumUrl
+        </th>
+        <th>
+            Genre
+        </th>
+        <th>
+            Artist
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Price
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <img alt="@Html.DisplayFor(model => model.Title)" src="@Html.DisplayFor(model => model.AlbumUrl)" />
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Genre)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Artist)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.Price)
+        </td>
+        <td class="right">
+            @using (Html.BeginForm("AddToCart", "Cart"))
+            {
+                @Html.HiddenFor(x => x.AlbumId)
+                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)<input type="submit" class="btn btn-info" value="+ Dodaj do koszyka" />
+            }
+
+        </td>
+
+
+    </tr>
+</table>

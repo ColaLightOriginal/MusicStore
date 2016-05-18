@@ -1,0 +1,58 @@
+﻿@model MusicStoreMVC.Models.CartIndexViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table-hover">
+    <tr>
+        <th>
+            Quanity
+        </th>
+        <th>
+            Album
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Value
+        </th>
+    </tr>
+    <tbody>
+    @foreach (var line in Model.Cart.Lines)
+    {
+        <tr>
+            <td>
+                @line.Quanity
+            </td>
+            <td>
+                @line.Album.Title
+            </td>
+            <td>
+                @line.Album.Price.ToString("c");
+            </td>
+            <td>
+                @((line.Album.Price*line.Quanity).ToString("c"))
+            </td>
+
+        </tr>
+    }
+    </tbody>
+    <tfoot>
+    <tr>
+        <td align="right" colspan="3">
+            Razem:
+        </td>
+        <td align="right">
+            @Model.Cart.ComputeTotalValue().ToString("c")
+        </td>
+    </tr>
+    </tfoot>
+</table>
+<p align="center" class="btn-default">
+    <a href="@Model.ReturnUrl">Kontynuuj zakupy</a>
+
+</p>
