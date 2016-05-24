@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Model.Entities;
+using MusicStoreMVC.Binders;
 
 namespace MusicStoreMVC
 {
@@ -16,6 +18,7 @@ namespace MusicStoreMVC
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ModelBinders.Binders.Add(typeof(Cart),new CartModelBinders());
         }
     }
 }

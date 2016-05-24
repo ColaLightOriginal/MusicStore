@@ -10,3 +10,15 @@ C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicSt
 C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Repository\obj\Debug\Repository.dll
 C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Repository\obj\Debug\Repository.pdb
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Repository.dll.config
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Repository.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Repository.pdb
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Model.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Model.pdb
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\obj\Debug\Repository.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\obj\Debug\Repository.pdb

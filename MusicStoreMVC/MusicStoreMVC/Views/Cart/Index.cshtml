@@ -37,7 +37,13 @@
             <td>
                 @((line.Album.Price*line.Quanity).ToString("c"))
             </td>
-
+            <td class="right">
+                @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                {                   
+                    @Html.Hidden("AlbumId",line.Album.AlbumId)
+                    @Html.HiddenFor(x=> x.ReturnUrl)<input type="submit" class="alert-danger" value="- Usun" />
+                }
+            </td>
         </tr>
     }
     </tbody>

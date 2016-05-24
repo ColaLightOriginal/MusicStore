@@ -6,7 +6,7 @@ using Repository.Abstract;
 
 namespace MusicStoreMVC.Controllers
 {
-    
+   
     public class CartController : Controller
     {
         private IAlbumRepository _repository;
@@ -16,46 +16,53 @@ namespace MusicStoreMVC.Controllers
             _repository = repository;
         }
 
-        public ViewResult Index(string returnUrl)
+        public ViewResult Index(Cart cart, string returnUrl)
         {
             CartIndexViewModel viewModel = new CartIndexViewModel
             {
-                Cart = GetCart(),
+                Cart = cart,
                 ReturnUrl = returnUrl
             };
             return View(viewModel);
         }
 
-        
-        public RedirectToRouteResult AddToCart(int albumId, string returnUrl)
+        [Authorize]
+        public RedirectToRouteResult AddToCart(Cart cart, int albumId, string returnUrl)
         {
             Album album = _repository.Albums.FirstOrDefault(x => x.AlbumId == albumId);
             if (album!=null)
             {
-                GetCart().AddItem(album,1);
+                cart.AddItem(album,1);
             }
             return RedirectToAction("Index", new { returnUrl });
         }
 
-        public RedirectToRouteResult RemoveFromCart(int albumId, string returnUrl)
+        public RedirectToRouteResult RemoveFromCart(Cart cart,int albumId, string returnUrl)
         {
             Album album = _repository.Albums.FirstOrDefault(x => x.AlbumId == albumId);
             if (album!=null)
             {
-                GetCart().RemoveLine(album);
+                cart.RemoveLine(album);
             }
             return RedirectToAction("Index", new {returnUrl});
         }
 
-        private Cart GetCart()
+        [Authorize]
+        public PartialViewResult Summary(Cart cart)
         {
-            Cart cart = (Cart)Session["Cart"];
-            if (cart==null)
-            {
-                cart=new Cart();
-                Session["Cart"] = cart;
-            }
-            return cart;
+            return PartialView(cart);
         }
+
+        //Korzystamy z łącznika modelu nie musimy korzystac z metody GetCart w zamian przekazujemy parametr Cart do kazdej z metod
+        //private Cart GetCart()
+        //{
+        //    Cart cart = (Cart)Session["Cart"];
+        //    if (cart==null)
+        //    {
+        //        cart=new Cart();
+        //        Session["Cart"] = cart;
+        //    }
+        //    return cart;
+        //}
     }
 }
