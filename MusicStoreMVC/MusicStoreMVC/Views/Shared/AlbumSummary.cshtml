@@ -40,12 +40,22 @@
             @Html.DisplayFor(model => model.Price)
         </td>
         <td class="right">
-            @using (Html.BeginForm("AddToCart", "Cart"))
-            {
-                @Html.HiddenFor(x => x.AlbumId)
-                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)<input type="submit" class="btn btn-info" value="+ Dodaj do koszyka" />
-            }
 
+            @if (Request.IsAuthenticated)
+            {
+                using (Html.BeginForm("AddToCart", "Cart"))
+                {
+                    @Html.HiddenFor(x => x.AlbumId)
+                    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)<input type="submit" class="btn btn-info" value="+ Dodaj do koszyka"/>
+                }
+            }
+            else
+            {
+                <span class="label label-danger">Zaloguj się aby dodać album do koszyka!</span>
+            }    
+                
+            
+            
         </td>
 
 

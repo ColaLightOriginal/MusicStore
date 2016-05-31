@@ -26,7 +26,7 @@ namespace MusicStoreMVC.Controllers
             return View(viewModel);
         }
 
-        [Authorize]
+        
         public RedirectToRouteResult AddToCart(Cart cart, int albumId, string returnUrl)
         {
             Album album = _repository.Albums.FirstOrDefault(x => x.AlbumId == albumId);
