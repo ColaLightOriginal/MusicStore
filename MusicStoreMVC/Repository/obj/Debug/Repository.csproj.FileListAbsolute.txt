@@ -22,3 +22,7 @@ C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFramew
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\obj\Debug\Repository.dll
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\obj\Debug\Repository.pdb
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml

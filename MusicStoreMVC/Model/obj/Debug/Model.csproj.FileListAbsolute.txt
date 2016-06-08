@@ -18,7 +18,11 @@ C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.S
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.Migrations.MusicssStore.resources
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.dll
 C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.pdb
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.Migrations.Migracja.resources
+C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache

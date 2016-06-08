@@ -63,6 +63,7 @@ namespace MusicStoreMVC
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IAlbumRepository>().To<AlbumRepository>();
+            kernel.Bind<IOrderRepository>().To<OrderRepository>();
         }        
     }
 }
