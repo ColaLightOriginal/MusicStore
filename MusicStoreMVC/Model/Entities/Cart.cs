@@ -1,17 +1,18 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace Model.Entities
 {
     public class Cart
     {
+        
         private List<CartLine> _lineColection = new List<CartLine>();
 
         public IEnumerable<CartLine> Lines
         {
             get { return _lineColection; }
         }
-
         public void AddItem(Album album, int quanity)
         {
             CartLine line = _lineColection
