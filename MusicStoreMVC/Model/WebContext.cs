@@ -6,7 +6,7 @@ namespace Model
 {
     public class WebContext : IdentityDbContext<ApplicationUser>
     {
-        public WebContext() : base("MusicsStoree")
+        public WebContext() : base("MusicStoree")
         {
             Configuration.ProxyCreationEnabled = true;
             Configuration.LazyLoadingEnabled = true;

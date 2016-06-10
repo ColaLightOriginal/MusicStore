@@ -63,9 +63,9 @@
     <Compile Include="Entities\ContactForm.cs" />
     <Compile Include="Entities\IdentityModels.cs" />
     <Compile Include="Entities\Order.cs" />
-    <Compile Include="Migrations\201606080853361_Migracja.cs" />
-    <Compile Include="Migrations\201606080853361_Migracja.Designer.cs">
-      <DependentUpon>201606080853361_Migracja.cs</DependentUpon>
+    <Compile Include="Migrations\201606101557368_Migracja1.cs" />
+    <Compile Include="Migrations\201606101557368_Migracja1.Designer.cs">
+      <DependentUpon>201606101557368_Migracja1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,8 +76,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201606080853361_Migracja.resx">
-      <DependentUpon>201606080853361_Migracja.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201606101557368_Migracja1.resx">
+      <DependentUpon>201606101557368_Migracja1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
