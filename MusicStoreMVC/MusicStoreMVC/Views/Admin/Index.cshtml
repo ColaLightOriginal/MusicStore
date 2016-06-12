@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Model.Entities.Album>
+
+@{
+    ViewBag.Title = "Administracja: Wszystkie albumy";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Wszystkie albumy</h1>
+<table class="Grid">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Artysta
+        </th>
+        <th>
+            Tytuł
+        </th>
+        <th>
+            Cena
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.AlbumId
+        </td>
+        <td>
+            @item.Artist
+        </td>
+        <td>
+            @item.Title
+        </td>
+        <td class="NumericCol">
+            @item.Price.ToString("c")
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { AlbumId = item.AlbumId })
+        </td>
+        <td>
+            @using (Html.BeginForm("Delete", "Admin"))
+            { @Html.Hidden("AlbumID", item.AlbumId)
+                <input type="submit" value="Usuń" /> }
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Dodaj nowy album", "Create")
+</p>

@@ -1,0 +1,15 @@
+﻿@model Model.Entities.Album
+
+@{
+    ViewBag.Title = "Administracja: edycja " + @Model.Artist + @Model.Title;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Edycja @Model.Artist @Model.Title</h1>
+
+@using (Html.BeginForm("Edit", "Admin"))
+{
+    @Html.EditorForModel()
+    <input type="submit" value="Zapisz" />
+    @Html.ActionLink("Anuluj i wróć do listy", "Index")
+}

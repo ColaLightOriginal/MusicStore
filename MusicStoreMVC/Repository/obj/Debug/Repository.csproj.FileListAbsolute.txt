@@ -42,3 +42,14 @@ C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFra
 C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.Mvc.dll
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.Razor.dll
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.WebPages.dll
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.Mvc.xml
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.Razor.xml
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.WebPages.xml
+C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Repository\bin\Debug\System.Web.WebPages.Deployment.xml
