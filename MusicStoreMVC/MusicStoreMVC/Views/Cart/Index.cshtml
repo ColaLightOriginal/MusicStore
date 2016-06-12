@@ -4,48 +4,121 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Koszyk</h2>
 
-<table class="table-hover">
-    <tr>
-        <th>
-            Quanity
-        </th>
-        <th>
-            Album
-        </th>
-        <th>
-            Price
-        </th>
-        <th>
-            Value
-        </th>
-    </tr>
-    <tbody>
-    @foreach (var line in Model.Cart.Lines)
-    {
-        <tr>
-            <td>
-                @line.Quanity
-            </td>
-            <td>
-                @line.Album.Title
-            </td>
-            <td>
-                @line.Album.Price.ToString("c");
-            </td>
-            <td>
-                @((line.Album.Price*line.Quanity).ToString("c"))
-            </td>
-            <td class="right">
-                @using (Html.BeginForm("RemoveFromCart", "Cart"))
-                {                   
-                    @Html.Hidden("AlbumId",line.Album.AlbumId)
-                    @Html.HiddenFor(x=> x.ReturnUrl)<input type="submit" class="alert-danger" value="- Usun" />
-                }
-            </td>
-        </tr>
-    }
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Produkt</th>
+                        <th>Ilość</th>
+                        <th class="text-center">Cena</th>
+                        <th class="text-center">Razem</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+				
+				
+				@foreach (var line in Model.Cart.Lines)
+				{
+                    <tr>
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="#">@line.Album.Title</a></h4>
+                                <h5 class="media-heading">Artysta: <a href="#">@line.Album.Artist</a></h5>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center"><strong>@line.Quanity</strong>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>@line.Album.Price</strong></td>
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>@((line.Album.Price*line.Quanity).ToString("c"))</strong></td>
+                        <td class="col-sm-1 col-md-1">
+						
+                        <button type="button" class="btn btn-danger">
+                            @using (Html.BeginForm("RemoveFromCart", "Cart"))
+								{                   
+									@Html.Hidden("AlbumId",line.Album.AlbumId)
+									@Html.HiddenFor(x=> x.ReturnUrl)<input type="submit" class="alert-danger" value="- Usun" />
+								}
+								
+                        </button></td>
+                    </tr>
+				}	
+					
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h5>Podsumowanie</h5></td>
+                        <td class="text-right"><h5><strong>@Model.Cart.ComputeTotalValue().ToString("c")</strong></h5></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>
+                        <button type="button" class="btn btn-default">
+                            <a href="@Model.ReturnUrl">Kontynuuj zakupy</a>
+                        </button></td>
+                        <td>
+                        <button type="button" class="btn btn-success">
+                            @Html.ActionLink("Zamówienie","Checkout","Order")
+                        </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@*
+<tbody>
+<div class="container text-center">
+			</div>
+			<div class="col-md-7 col-sm-12 text-left">
+				<ul>
+					<li class="row list-inline columnCaptions">
+						<span>QTY</span>
+						<span>ITEM</span>
+						<span>Price</span>
+					</li>
+					
+					@foreach (var line in Model.Cart.Lines)
+					{
+						<li class="row">
+							<span class="quantity">@line.Quantity</span>
+										<span class="itemName">@Line.Album.Title</span>
+										<button type="button" class="btn btn-danger">Danger</button>
+										<span class="price">@((line.Album.Price*line.Quanity).ToString("c"))</span>
+						</li>
+						<tr>
+							<td>
+								@line.Quanity
+							</td>
+							<td>
+								@line.Album.Title
+							</td>
+							<td>
+								@line.Album.Price.ToString("c");
+							</td>
+							<td>
+								@((line.Album.Price*line.Quanity).ToString("c"))
+							</td>
+							<td class="right">
+								@using (Html.BeginForm("RemoveFromCart", "Cart"))
+								{                   
+									@Html.Hidden("AlbumId",line.Album.AlbumId)
+									@Html.HiddenFor(x=> x.ReturnUrl)<input type="submit" class="alert-danger" value="- Usun" />
+								}
+							</td>
+						</tr>
+					}
+
     </tbody>
     <tfoot>
     <tr>
@@ -61,5 +134,6 @@
 <p align="center" class="btn-default">
     <a href="@Model.ReturnUrl">Kontynuuj zakupy</a>
     @Html.ActionLink("Zamówienie","Checkout","Order")
-
 </p>
+
+*@

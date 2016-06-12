@@ -91,9 +91,9 @@
     <Compile Include="Entities\ContactForm.cs" />
     <Compile Include="Entities\IdentityModels.cs" />
     <Compile Include="Entities\Order.cs" />
-    <Compile Include="Migrations\201606121339442_m1.cs" />
-    <Compile Include="Migrations\201606121339442_m1.Designer.cs">
-      <DependentUpon>201606121339442_m1.cs</DependentUpon>
+    <Compile Include="Migrations\201606121628203_M1.cs" />
+    <Compile Include="Migrations\201606121628203_M1.Designer.cs">
+      <DependentUpon>201606121628203_M1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,8 +104,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201606121339442_m1.resx">
-      <DependentUpon>201606121339442_m1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201606121628203_M1.resx">
+      <DependentUpon>201606121628203_M1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

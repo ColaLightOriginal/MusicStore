@@ -1,0 +1,29 @@
+@using MusicStoreMVC.HtmlHelpers
+@model MusicStoreMVC.Models.AlbumListViewModel
+
+@{
+    ViewBag.Title = "Albumy";
+}
+
+<h2>@Model.CurentGenre</h2>
+@foreach (var item in Model.Albums)
+{
+	Html.RenderPartial("AlbumSummary", item);
+} 
+
+<nav>
+    <ul class="pagination">
+        <li>
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li>@Html.PageLinks(Model.PagingInfo, x => Url.Action("Albumy", new { page = x, genre = Model.CurentGenre }))</li>
+        <li>
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+

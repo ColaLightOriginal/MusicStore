@@ -1,0 +1,19 @@
+﻿@model Model.Entities.Cart
+
+
+
+<p class="navbar-text navbar-right">Twoj koszyk:
+    <span class="caption">
+    @Model.Lines.Sum(x => x.Quanity) sztuk,
+    @Model.ComputeTotalValue().ToString("c")
+</span> @Html.ActionLink("Lista Zamówień", "OrderList", "Order")</p>
+
+@*<div id="cart">
+    <span  class="caption">
+        <b>Twoj koszyk:</b>
+        @Model.Lines.Sum(x => x.Quanity) sztuk,
+        @Model.ComputeTotalValue().ToString("c")
+    </span>
+    @Html.ActionLink("Zamów","Index","Cart",new {returnUrl=Request.Url.PathAndQuery},null)
+
+</div>*@

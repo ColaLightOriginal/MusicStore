@@ -1,57 +1,60 @@
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\Model.dll.config
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\Model.dll
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\Model.pdb
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.dll
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\obj\Debug\Model.dll
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\obj\Debug\Model.pdb
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\obj\Debug\Model.Migrations.MusicssStore.resources
-C:\Users\Dell\Desktop\6 semestr\TworzenieNowoczesnychPortali\MusicsStore\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Model.dll.config
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Model.dll
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Model.pdb
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.dll
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.dll
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.pdb
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.Migrations.Migracja.resources
-C:\Users\Dell\Desktop\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.pdb
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Model.dll.config
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Model.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Model.pdb
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.Helpers.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.Mvc.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.Razor.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.Helpers.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.Mvc.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.Razor.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.Migrations.m1.resources
-C:\Projekty\VisualStudio\MusicStore\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Model.dll.config
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Model.dll
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Model.pdb
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\EntityFramework.dll
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\obj\Debug\Model.Migrations.First.resources
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\obj\Debug\Model.dll
+C:\Users\Linda\Desktop\MusicStore-CreatingFrontEnd-Admin\MusicStoreMVC\Model\obj\Debug\Model.pdb
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Model.dll.config
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Model.dll
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Model.pdb
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.Migrations.First.resources
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.dll
+C:\Users\Dell\Downloads\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.pdb
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Model.dll.config
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Model.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Model.pdb
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.pdb
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.Helpers.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.Mvc.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.Razor.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.Helpers.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.Mvc.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.Razor.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.Migrations.M1.resources
+C:\Projekty\VisualStudio\MjuzikStor\MusicStoreMVC\Model\obj\Debug\Model.csproj.GenerateResource.Cache

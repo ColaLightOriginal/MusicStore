@@ -1,11 +1,42 @@
 ﻿@model Model.Entities.Album
 
-
 @{
     ViewBag.Title = "AlbumSummary";
 }
 
-<table class="table-hover">
+
+<hr>
+
+<div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" alt="@Html.DisplayFor(model => model.Title)" src="http://placehold.it/700x300">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>@Html.DisplayFor(model => model.Title)</h3>
+                <h4>@Html.DisplayFor(model => model.Artist)</h4>
+                <p>Jeden z albumów zespołu @Html.DisplayFor(model => model.Artist) o dumnej
+				nazwie @Html.DisplayFor(model => model.Title).</p>
+                <p>@if (Request.IsAuthenticated)
+								{
+									using (Html.BeginForm("AddToCart", "Cart"))
+									{
+										@Html.HiddenFor(x => x.AlbumId)
+										@Html.Hidden("returnUrl", Request.Url.PathAndQuery)<input type="submit" class="btn btn-info" value="+ Dodaj do koszyka"/>
+									}
+							}
+							else
+							{
+								<span class="label label-danger">Zaloguj się aby kupić album!</span>
+							}    
+										</p>
+            </div>
+        </div>
+
+<hr>
+
+<!--<table class="table-hover">
     <tr>
         <th>
             AlbumUrl
@@ -60,4 +91,4 @@
 
 
     </tr>
-</table>
+</table> -->

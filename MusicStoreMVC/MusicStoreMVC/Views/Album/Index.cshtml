@@ -5,27 +5,20 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<style>
+    body { background-image: url("../Content/Images/FrontSiteBg.jpg"); }
+</style>
 
-<h2>Index</h2>
-
-@foreach (var item in Model.Albums)
-{
-    Html.RenderPartial("AlbumSummary", item);
-}
-
-<nav>
-    <ul class="pagination">
-        <li>
-            <a href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        <li>@Html.PageLinks(Model.PagingInfo, x => Url.Action("Index", new { page = x, genre = Model.CurentGenre }))</li>
-        <li>
-            <a href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
-    </ul>
-</nav>
+<div id="page-top">
+   <header>
+	<div class="animated fadeIn">
+        <div class="header-content">
+            <div class="header-content-inner">
+				<h1>Musical Store</h1>
+                <p>Znajdziesz tu przeróżne albumy muzyczne - najwięksi artysci, alternatywne płyty w atrakcyjnych cenach oraz wiele innych rozwiązań dla kolekcjonerów i casualowców.</p>
+				@Html.ActionLink("Przejdz do sklepu", "Albumy", "Album", new { @class="btn btn-primary btn-xl page-scroll" })
+            </div>
+        </div>
+	</div>
+    </header>
+</div>

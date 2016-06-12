@@ -14,8 +14,15 @@ namespace MusicStoreMVC.Controllers
             _repository = repository;
         }
 
+        public ActionResult Index()
+        {
+            ViewBag.Message = "Main page.";
+
+            return View();
+        }
+
         // GET: Album
-        public ViewResult Index(string genre, int page = 1)
+        public ViewResult Albumy(string genre, int page = 1)
         {
             AlbumListViewModel viewModel = new AlbumListViewModel
             {
